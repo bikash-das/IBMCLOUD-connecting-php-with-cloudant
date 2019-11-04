@@ -1,0 +1,37 @@
+body{
+  margin: 0 auto;
+  text-align: center;
+}
+h1{
+  text-shadow: 2px 3px 5px red;
+  text-transform: capitalize;
+  letter-spacing: 5px;
+  font-size: 30px;
+}
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+a:link, a:visited, button{
+  background-color: #f44336;
+  color: white;
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+}
+
+a:hover, a:active {
+  background-color: red;
+}
